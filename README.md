@@ -1,6 +1,6 @@
-# sipcall
+# SIPCall
 
-O sipcall é um projeto que integra tecnologias de telefonia com aplicações web Java, utilizando o Oracle Communications Converged Application Server (OCCAS) como base para serviços convergentes SIP e HTTP. Seu objetivo é fornecer uma estrutura robusta para aplicações de comunicação em tempo real, como chamadas VoIP, sobre uma arquitetura Spring Boot moderna, com deploy em servidores WebLogic. Este repositório documenta o processo completo de instalação, configuração e implantação do ambiente necessário, tornando-o ideal para desenvolvedores que desejam explorar soluções corporativas baseadas em SIP e Java.
+O SIPCall é um projeto que integra tecnologias de telefonia com aplicações web Java, utilizando o Oracle Communications Converged Application Server (OCCAS) como base para serviços convergentes SIP e HTTP. Seu objetivo é fornecer uma estrutura robusta para aplicações de comunicação em tempo real, como chamadas VoIP, sobre uma arquitetura Spring Boot moderna, com deploy em servidores WebLogic. Este repositório documenta o processo completo de instalação, configuração e implantação do ambiente necessário, tornando-o ideal para desenvolvedores que desejam explorar soluções corporativas baseadas em SIP e Java.
 
 # Guia de Instalação e Configuração do Ambiente OCCAS + Eclipse + Maven + WebLogic
 
