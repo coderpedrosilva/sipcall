@@ -1,6 +1,8 @@
 # SIPCall
 
-O SIPCall é um projeto que integra tecnologias de telefonia com aplicações web Java, utilizando o Oracle Communications Converged Application Server (OCCAS) como base para serviços convergentes SIP e HTTP. Seu objetivo é fornecer uma estrutura robusta para aplicações de comunicação em tempo real, como chamadas VoIP, sobre uma arquitetura Spring Boot moderna, com deploy em servidores WebLogic. Este repositório documenta o processo completo de instalação, configuração e implantação do ambiente necessário, tornando-o ideal para desenvolvedores que desejam explorar soluções corporativas baseadas em SIP e Java.
+SIPCall é um projeto que integra chamadas telefônicas via protocolo SIP com aplicações web Java, combinando o poder do Oracle Communications Converged Application Server (OCCAS) com a flexibilidade do Spring Boot. Ele fornece uma base sólida para o desenvolvimento de aplicações de comunicação em tempo real, como chamadas VoIP, com suporte tanto a requisições HTTP quanto a sessões SIP, utilizando servidores WebLogic para deploy.
+
+A aplicação pode ser testada com dois softphones instalados localmente, sugiro o Linphone e o MicroSIP, permitindo simular chamadas entre extensões configuradas. Este repositório documenta todo o processo de instalação, configuração e implantação, servindo como um guia prático para desenvolvedores que desejam explorar soluções corporativas baseadas em SIP e Java.
 
 # Guia de Instalação e Configuração do Ambiente OCCAS + Eclipse + Maven + WebLogic
 
@@ -388,7 +390,9 @@ http://localhost:7001/sipcall/api/invite/551140044000/551140674555
 
 Para acessar a interface do Swagger e realizar testes na API, basta abrir o navegador e ir até o caminho configurado em springdoc.swagger-ui.path. No caso acima, a interface estará disponível em http://localhost:7001/sipcall/documentation. Nessa página, será possível visualizar todos os endpoints disponíveis, organizados por controladores e métodos, e utilizar a funcionalidade "Try it out" para testar as requisições diretamente na interface. Isso facilita a validação das funcionalidades da API durante o desenvolvimento ou testes.
 
+# Testando com Softphones
 
+Para testar o SIPCall em ambiente local, é possível utilizar dois softphones conectados à mesma rede, como o Linphone e o MicroSIP. Basta configurar cada um com os dados de usuário SIP definidos na aplicação ou no servidor SIP (como IP, porta, login e senha). Com os dois softphones registrados, você já pode realizar chamadas entre eles e validar o funcionamento da aplicação.
 
 
 
